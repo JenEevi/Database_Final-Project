@@ -1,0 +1,74 @@
+/* styling for the website main title */
+h1 {
+    color: #3a99ff;
+    margin-left: 20px;
+    font-size: 150%;
+    font-family: "Arial", arial, sans-serif;
+}
+
+/* styling for the table information heading */
+h2 {
+    color: #3a99ff;
+    margin-left: 20px;
+    font-family: "Arial", arial, sans-serif;
+    font-size: 100%;
+}
+
+/* styling for the buttons */
+a:link, a:visited {
+    margin-left: 20px;
+    background-color: #3a99ff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Arial", arial, sans-serif;
+    border-radius: 5px;
+
+}
+
+a:hover, a:active {
+    background-color: #38D1FF;
+}
+
+p {
+    margin-left: 20px;
+    font-family: "Arial", arial, sans-serif;
+}
+
+/* styling the table to be zebra color */
+tbody tr:nth-child(odd) {
+    background-color: #E0E1E1;
+}
+
+
+/* table styling */
+table, td, th {
+    border: 1px solid #979797;
+    margin-left: 20px;
+    font-family: "Arial", arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    white-space:nowrap;
+}
+
+/* table heading*/
+th {
+    height: 40px;
+    background-color: #3a99ff;
+    color: white;
+    white-space:nowrap;
+    padding: 8px;
+
+}
+/* table row*/
+tr {
+    height: 30px;
+}
